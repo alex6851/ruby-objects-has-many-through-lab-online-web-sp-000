@@ -21,7 +21,6 @@ class Genre
     end
   end
 
-
   def self.all
     @@all
   end
