@@ -6,7 +6,6 @@ class Artist
 
   @@all = []
 
-  @genres = []
 
   def initialize(name)
     @name = name
@@ -22,6 +21,11 @@ class Artist
       song.artist == self
     end
   end
+
+  def genres
+    songs.map do |song|
+      song.genre
+    end
 
   def self.all
     @@all
