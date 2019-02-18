@@ -6,6 +6,8 @@ class Artist
 
   @@all = []
 
+  @genres = []
+
   def initialize(name)
     @name = name
     @@all << self
