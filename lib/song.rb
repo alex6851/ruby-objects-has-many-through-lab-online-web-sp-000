@@ -12,11 +12,6 @@ class Song
     @@all << self
   end
 
-  def genre
-    genre = Genre.new(genre)
-  end
-
-
   def self.all
     @@all
   end
