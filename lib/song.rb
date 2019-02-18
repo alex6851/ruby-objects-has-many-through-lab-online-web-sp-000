@@ -16,10 +16,6 @@ class Song
     genre = Genre.new(genre)
   end
 
-  def artist
-    artist = Artist.new(artist)
-  end
-
 
   def self.all
     @@all
