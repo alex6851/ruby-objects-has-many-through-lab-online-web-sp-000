@@ -2,7 +2,7 @@ require 'pry'
 
 class Artist
 
-  attr_accessor :name, :genres
+  attr_accessor :name
 
   @@all = []
 
